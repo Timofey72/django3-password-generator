@@ -34,5 +34,5 @@ def password(request):
     return render(request, 'generator/password.html', {'password': the_password})
 
 
-def about_me(request):
-    return render(request, 'generator/about_me.html')
+def about(request):
+    return render(request, 'generator/about.html')
